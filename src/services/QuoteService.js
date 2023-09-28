@@ -1,11 +1,12 @@
 import axios from "axios";
 
-const apiKey = import.meta.env.VITE_API_KEY;
+// const apiKey = import.meta.env.VITE_API_KEY;
+const apiKey = "j+q5iAAkpKOIuMiC9A6LYw==36PbCWlgYTRKTgJh";
 
 const Axios = axios.create({
   baseURL: "https://api.api-ninjas.com/v1/quotes",
   headers: {
-    "X-Api-Key": "j+q5iAAkpKOIuMiC9A6LYw==36PbCWlgYTRKTgJh",
+    "X-Api-Key": apiKey,
   },
 });
 
